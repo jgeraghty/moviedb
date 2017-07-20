@@ -1,0 +1,8 @@
+<div *ngIf="movie" class="card proposal-card">
+  <img src= "{{'https://image.tmdb.org/t/p/w370_and_h556_bestv2/' + movie.poster_path }}"/>
+  <h3>{{ movie.title }}</h3>
+  <p> {{ movie.overview }}</p>
+  <p> Released: {{ movie.release_date }}</p>
+  <p> The original title of the movie was {{ movie.original_title }}.</p>
+  <p> Rating of {{ movie.vote_average }} stars based on {{ movie.vote_count}} votes.</p>
+</div>
