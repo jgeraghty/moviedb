@@ -6,3 +6,7 @@
 .movieItem{
   width: 33%;
 }
+.movieImage{
+  width:100%;
+  height: auto;
+}
