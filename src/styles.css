@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@viewport {
+  width: device-width;
+  zoom: 1;
+}
+html, body{
+  height:100%;
+}
+body{
+  font-family: helvetica, helvetica nueue, sans-serif;
+}
+.flexbox{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+.container{
+	height:100%;
+  width:100%;
+	align-items: center;
+  flex-direction: column;
+}
+.container > * {
+  width: 100%;
+}

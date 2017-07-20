@@ -1,0 +1,8 @@
+.movieList{
+  flex-direction: row;
+  flex-flow: wrap;
+
+}
+.movieItem{
+  width: 33%;
+}

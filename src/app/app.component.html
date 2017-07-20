@@ -1,7 +1,9 @@
-<h1>
-  {{title}}
-</h1>
-<input name="title" #searchTerm>
+<div class="container flexbox">
+  <h1>
+    {{title}}
+  </h1>
+  <input name="title" #searchTerm>
 
-<button (click)="searchMovies(searchTerm)">Search</button>
-<router-outlet></router-outlet>
+  <button (click)="searchMovies(searchTerm)">Search</button>
+  <router-outlet></router-outlet>
+</div>

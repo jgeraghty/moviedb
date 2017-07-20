@@ -1,13 +1,13 @@
-<div class="container">
-	<div class="">
-		<h1 class="headline">Movie List</h1>
-		<span *ngFor="let movie of movies" class="">
+<div class="movieContainer">
+	<h1 class="headline">Movie List</h1>
+	<div class="movieList flexbox">
+		<div *ngFor="let movie of movies" class="movieItem">
 			<a (click)="goToMovie(movie)" class="movie-link">
 				<h5 class="">{{movie.title}}</h5>
 				<p class="">
 					<img src= "{{'https://image.tmdb.org/t/p/w370_and_h556_bestv2/' + movie.poster_path }}"/>
 				</p>
 			</a>
-		</span>
+		</div>
 	</div>
 </div>
